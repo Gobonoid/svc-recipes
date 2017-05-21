@@ -1,0 +1,112 @@
+hash: c9b979765c1781607c06611906e82c4be47c0202c3bc82509acdc93a5c96bdca
+updated: 2017-05-19T23:34:59.9151268+01:00
+imports:
+- name: github.com/caarlos0/env
+  version: d0de832ed2fbc4e7bfaa30ab5cf0b3417d15f529
+- name: github.com/dgrijalva/jwt-go
+  version: d2709f9f1f31ebcda9651b03077758c1f3a0018c
+- name: github.com/gocarina/gocsv
+  version: 911e4d95f88fba73eee965e7031bd52081607161
+- name: github.com/golang/protobuf
+  version: 69b215d01a5606c843240eab4937eab3acee6530
+  subpackages:
+  - jsonpb
+  - proto
+  - ptypes/any
+  - ptypes/empty
+  - ptypes/timestamp
+- name: github.com/karhoo/lib-common
+  version: 0c3e101748dfe8000dcb0025b1d932f7a62bb98b
+  subpackages:
+  - messaging
+  - messaging/producer
+- name: github.com/karhoo/svc-users
+  version: 7bb6a7b6f39b0b910cf62d579d6462828a16074c
+  subpackages:
+  - app/configuration
+  - app/interface/rest/handler
+  - app/interface/rest/middleware
+  - proto/bi_events
+  - proto/model
+  - proto/service/money
+- name: github.com/labstack/echo
+  version: cb9255e7754a2e281d46a21241baba5f5765c7b6
+  subpackages:
+  - '...'
+  - middleware
+- name: github.com/labstack/gommon
+  version: 1121fd3e243c202482226a7afe4dcd07ffc4139a
+  subpackages:
+  - bytes
+  - color
+  - log
+  - random
+- name: github.com/mattn/go-colorable
+  version: ded68f7a9561c023e790de24279db7ebf473ea80
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/sandalwing/echo-logrusmiddleware
+  version: 1d7700fcf2d3785a9fa77dc1a89a60df4789cdb2
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/Sirupsen/logrus
+  version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
+  - require
+- name: github.com/valyala/bytebufferpool
+  version: e746df99fe4a3986f4d4f79e13c1e0117ce9c2f7
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: golang.org/x/crypto
+  version: 0fe963104e9d1877082f8fb38f816fcd97eb1d10
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/net
+  version: 906cda9512f77671ab44f8c8563b13a8e707b230
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/sys
+  version: 76cc09b634294339fa19ec41b5f2a0b3932cea8b
+  subpackages:
+  - unix
+- name: google.golang.org/genproto
+  version: bb3573be0c484136831138976d444b8754777aff
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: d2e1b51f33ff8c5e4a15560ff049d200e83726c5
+  subpackages:
+  - codes
+  - credentials
+  - grpclb/grpc_lb_v1
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - stats
+  - status
+  - tap
+  - transport
+testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
