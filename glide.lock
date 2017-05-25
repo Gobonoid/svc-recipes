@@ -1,36 +1,12 @@
 hash: c9b979765c1781607c06611906e82c4be47c0202c3bc82509acdc93a5c96bdca
-updated: 2017-05-19T23:34:59.9151268+01:00
+updated: 2017-05-25T12:26:53.3084111+01:00
 imports:
-- name: github.com/caarlos0/env
-  version: d0de832ed2fbc4e7bfaa30ab5cf0b3417d15f529
 - name: github.com/dgrijalva/jwt-go
-  version: d2709f9f1f31ebcda9651b03077758c1f3a0018c
+  version: 6c8dedd55f8a2e41f605de6d5d66e51ed1f299fc
 - name: github.com/gocarina/gocsv
   version: 911e4d95f88fba73eee965e7031bd52081607161
-- name: github.com/golang/protobuf
-  version: 69b215d01a5606c843240eab4937eab3acee6530
-  subpackages:
-  - jsonpb
-  - proto
-  - ptypes/any
-  - ptypes/empty
-  - ptypes/timestamp
-- name: github.com/karhoo/lib-common
-  version: 0c3e101748dfe8000dcb0025b1d932f7a62bb98b
-  subpackages:
-  - messaging
-  - messaging/producer
-- name: github.com/karhoo/svc-users
-  version: 7bb6a7b6f39b0b910cf62d579d6462828a16074c
-  subpackages:
-  - app/configuration
-  - app/interface/rest/handler
-  - app/interface/rest/middleware
-  - proto/bi_events
-  - proto/model
-  - proto/service/money
 - name: github.com/labstack/echo
-  version: cb9255e7754a2e281d46a21241baba5f5765c7b6
+  version: 3359eae3067d1f6dba4785ea0377796405a34429
   subpackages:
   - '...'
   - middleware
@@ -49,8 +25,6 @@ imports:
   version: 645ef00459ed84a119197bfb8d8205042c6df63d
 - name: github.com/sandalwing/echo-logrusmiddleware
   version: 1d7700fcf2d3785a9fa77dc1a89a60df4789cdb2
-- name: github.com/satori/go.uuid
-  version: 879c5887cd475cd7864858769793b2ceb0d44feb
 - name: github.com/Sirupsen/logrus
   version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
 - name: github.com/stretchr/testify
@@ -63,44 +37,18 @@ imports:
 - name: github.com/valyala/fasttemplate
   version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
 - name: golang.org/x/crypto
-  version: 0fe963104e9d1877082f8fb38f816fcd97eb1d10
+  version: 7e9105388ebff089b3f99f0ef676ea55a6da3a7e
   subpackages:
   - acme
   - acme/autocert
 - name: golang.org/x/net
-  version: 906cda9512f77671ab44f8c8563b13a8e707b230
+  version: 7dcfb8076726a3fdd9353b6b8a1f1b6be6811bd6
   subpackages:
   - context
-  - http2
-  - http2/hpack
-  - idna
-  - internal/timeseries
-  - lex/httplex
-  - trace
 - name: golang.org/x/sys
-  version: 76cc09b634294339fa19ec41b5f2a0b3932cea8b
+  version: a55a76086885b80f79961eacb876ebd8caf3868d
   subpackages:
   - unix
-- name: google.golang.org/genproto
-  version: bb3573be0c484136831138976d444b8754777aff
-  subpackages:
-  - googleapis/rpc/status
-- name: google.golang.org/grpc
-  version: d2e1b51f33ff8c5e4a15560ff049d200e83726c5
-  subpackages:
-  - codes
-  - credentials
-  - grpclb/grpc_lb_v1
-  - grpclog
-  - internal
-  - keepalive
-  - metadata
-  - naming
-  - peer
-  - stats
-  - status
-  - tap
-  - transport
 testImports:
 - name: github.com/davecgh/go-spew
   version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
